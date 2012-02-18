@@ -1,2 +1,66 @@
-My GitHub Page
-Simple edits...
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>Two boxes</title>
+<link rel="stylesheet" href="css/fouc.css" type="text/css" media="all" />
+<style type="text/css" media="all">@import url("style.css");</style>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta http-equiv="expires" content="-1" />
+<meta http-equiv= "pragma" content="no-cache" />
+<meta name="robots" content="all" />
+<meta name="author" content="Owen Briggs" />
+<meta name="description" content="Workarounds for CSS browser issues." />
+</head><body>
+<a class="ahem" href="http://www.thenoodleincident.com/upgrade_notice.html"><img class="ahem" src="http://www.thenoodleincident.com/img/upgrade_notice.gif" width="380" height="110" alt="" border="0" /></a>
+
+<div id="content">
+
+<pre>
+#content {
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	background: #666;
+	border: 5px solid #ccc;
+	width: 300px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 270px;
+	}
+html>body #content {
+	width: 270px; 
+	/* ie5win fudge ends */
+	}
+</pre>
+
+</div>
+<div id="content2">
+
+<pre>
+#content2 {
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	background: #666;
+	border: 5px solid #ccc;
+	width: 300px; 
+	/* ie5win fudge begins */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 270px;
+	}
+html>body #content2 {
+	width: 270px; 
+	/* ie5win fudge ends */
+	}
+</pre>
+
+<div align="right"><p><a href="css/02_2box_fixed.css">[full css]</a></p></div>
+
+</div>
+
+</body>
+</html>
+
