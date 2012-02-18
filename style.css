@@ -6,9 +6,8 @@ body {
 	background-color: #333;
 	}
 a {
-	text-decoration: none;
-	font-weight: bold;
-	color:  #ccc;
+	text-decoration: none;	
+	color:  #FFFFFF;
 	outline: none;
 	}
 a:visited {
@@ -18,7 +17,7 @@ a:active {
 	color:  #FFFFFF;
 	}
 a:hover {
-	color: #ccc;
+	color: #98AFC7;
 	text-decoration: underline;
 	}
 .ahem {
