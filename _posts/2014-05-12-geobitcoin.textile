@@ -3,16 +3,29 @@ layout: post
 title: GeoBitcoin
 ---
 
-<h1>{{ page.title }}</h1>
+<h1>{{ page.title }} / WORK IN PROGRESS!</h1>
 
 
 <p class="meta">12 May 2014 - Cambridge, MA</p>
 
-This is a test of paragraph one.
+
+One interesting consequence of a distributed transaction system is the there it is very difficult to apply any type of stabilization mechanisms to an economic currency. I believe this to be of fundamental importance as such policies can provide slower feedback systems to a system that responds rapidly to any fluctuation caused by change in investor and user sentiment, security breaches, or other general fluctuations. I believe that providing a mechanism for regulating such economic transactions would be beneficial in their widespread adaption, which I believe to be an inherently good thing.
+
+
+However, one of the big challenges about how to regulate such a system, is how can one regulate an electonic currency? I propose one reasonably simple approach, mostly as a thought experiment*
+
+To summasize, the key elements are:
+
+* a method to identify the location of the user, providing an initial (untrusted) location
+* a method of validating the untrusted location of the user, through a peer network
+* the application of the appropriate monitary policy based on the location of the user
+
+This also presupposes that we can split the world into 10km grids, that a global body that applies monetary policies to each grid.
 
 
 
-And a test of paragraph two.
+
+* thanks to zwarg and sze for their useful ideas while discussing this idea with them
 
 
 
