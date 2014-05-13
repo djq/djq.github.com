@@ -1,0 +1,22 @@
+---
+layout: post
+title: GeoBitcoin
+---
+
+{{ page.title }}
+================
+
+<p class="meta">12 May 2014 - Cambridge, MA</p>
+
+This is a test of paragraph one.
+
+
+
+And a test of paragraph two.
+
+
+
+
+
+
+
