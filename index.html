@@ -14,6 +14,13 @@ title: djq
     Previously, I was a Postdoctoral Fellow in the <a href="http://ncg.nuim.ie/">National GeoComputation Center</a>, Ireland, (Oct. 2012 - March 2013) where I worked with <a href="http://ncg.nuim.ie/redir.php?action=staff/staff/apozdnoukhov">Alexei Pozdnoukhov</a> as part of the <a href="http://www.stratag.ie/">StratAG</a> project. In Sep. 2012, I co-founded <a href="http://urbmet.com">urbmet.com</a> with <a href="http://web.ist.utl.pt/daniel.wiesmann/">Daniel Wiesmann</a>. We made geospatial tools to facilitate analysis, with clients in the US and Europe.<br><br>
   </ul>
 
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
   <h1>Projects</h1>
   <ul class="posts">
     <li><span>Dec 2012</span> &raquo; <a href="http://courbanize.com">coUrbanize</a></li>
@@ -27,19 +34,20 @@ title: djq
     <li><span>Oct 2013</span> &raquo; <a href="http://www.sciencemag.org/content/342/6154/60.summary">Who's Afraid of Peer Review?</a> | [data-viz]</li>
   </ul>
 
-  <h1>Academic Work</h1>
+  <h1>Theses</h1>
   <ul class="posts">
-    <li><span>Jun 2012</span> &raquo; <a href="http://djq.me/files/2012_June_Quinn_phd_small.pdf">PhD Thesis</a></li>
-    <li><span>Jun 2008</span> &raquo; <a href="http://djq.me/files/2008_May_Thesis_DQ.pdf">Masters Thesis</a></li>
-    <li><span>May 2005</span> &raquo; <a href="http://djq.me/files/2005_May_JOD_DQ.pdf">Undergraduate Thesis</a></li>
+    <li><span>Jun 2012</span> &raquo; PhD: <a href="http://djq.me/files/2012_June_Quinn_phd_small.pdf">Estimating Material and Energy
+Intensities of Urban Areas</a></li>
+    <li><span>Jun 2008</span> &raquo; Masters: <a href="http://djq.me/files/2008_May_Thesis_DQ.pdf">Modeling the Resource Consumption of Housing in New Orleans using System Dynamics</a></li>
+    <li><span>May 2005</span> &raquo; Undergraduate: <a href="http://djq.me/files/2005_May_JOD_DQ.pdf">An Investigation of Hemp and Lime as a Building 
+Material</a></li>
   </ul>
 
-<!--   <h1>Blog Posts</h1>
+  <h1>Academic Work & Misc.</h1>
   <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul> -->
+    <li><span>Jun 2014</span> &raquo; <a href="http://djq.me/files/2012_June_Quinn_phd_small.pdf">PhD Thesis</a></li>
 
+    <li><span>Jun 2012</span> &raquo; <a href="http://djq.me/files/2012_June_Quinn_phd_small.pdf">PhD Thesis</a></li>
+  </ul>
 
 </div>
