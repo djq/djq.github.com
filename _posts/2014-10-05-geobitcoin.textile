@@ -30,9 +30,10 @@ This also assumes that we split the world into 10km grids and that there is a un
 
 Using this approach to verify the user's location means without any major infrastructure changes the system can then assess the truthfullness of A's location. If A's location is verified, then the appropriate monitory policy is applied to the transaction based on the quadrant that A is located within. There needs to be some benefit to A for verification; perhaps this transaction could have the value backed by an organization. If the location is unverified, it falls outside the guaranteed system.
 
+Finally, one important reason that people want to use <i>bitcoin</i> is for privacy. The approach described above could reduce the anonymity associated with using this currency for transactions; it is important that it would be implemented in such a way that all locations are obfuscated.
 
 
-<i>My thanks to <a href="http://twitter.com/@szelenagray">Szelena Gray </a> and <a href="http://twitter.com/@davidzwarg">David Zwarg</a> for their thoughts on this idea!</i>
+<i>My thanks to <a href="http://twitter.com/@szelenagray">Szelena Gray </a> and <a href="http://twitter.com/@davidzwarg">David Zwarg</a> for discussing this crazy idea with me!</i>
 
 
 <div id="disqus_thread"></div>
