@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GeoBitcoins - a thought experiment
+title: geobitcoin - a thought experiment
 ---
 
 <h1>{{ page.title }}</h1>
@@ -9,11 +9,11 @@ title: GeoBitcoins - a thought experiment
 <p class="meta">12 October 2014 - Cambridge, MA</p>
 
 
-One interesting consequence of a distributed economic transaction system, like <a href="http://en.wikipedia.org/wiki/Bitcoin">bitcoin</a>, is the difficulty in stabilizing the currency. Stabilization mechanisms for currencies is important as it can provide slower feedback to a system that responds rapidly to fluctuations. These fluctuations can be caused by change in investor/user sentiment, security breaches, or other external macro-economic trends. Most government backed currencies give us the belief that our money will not evaporate when there is a crisis somewhere in the world; we no longer live in fear of our cash savings disappearing overnight (as was the case in <a href="http://en.wikipedia.org/wiki/Bank_run">bank-runs</a> in the 1930s) even though we have had economic crises on a much larger scale since then.
+One interesting consequence of a distributed economic transaction system, like <a href="http://en.wikipedia.org/wiki/Bitcoin">bitcoin</a>, is the difficulty in stabilizing the currency. Stabilization mechanisms for currencies are important as they can provide slower feedback to a system that responds rapidly to fluctuations. These fluctuations can be caused by changes in investor/user sentiment, security breaches, or other external macro-economic trends. Most government backed currencies give us the belief that our money will not evaporate when there is a crisis somewhere in the world; we no longer live in fear of our cash savings disappearing overnight (as was the case in <a href="http://en.wikipedia.org/wiki/Bank_run">bank-runs</a> in the 1930s) even though we have had economic crises on a much larger scale since then.
 
-One huge challenge for a distributed economic system, is to regulate it in such a way that it behaves like a normal currency with stability and a collective belief in the value it holds. I'm not sure how <i>bitcoin</i> can be regulated overall, but I wanted to explore how to influence transactions using the geographic location of the bitcoin owner. This modified cryptocurrency is named the <i>geobitcoin</i>!
+One huge challenge for a distributed economic system, is to regulate it in such a way that it behaves like a normal currency with stability and a collective belief in the value it holds. I'm not sure how <i>bitcoin</i> can be regulated overall, but I wanted to explore how to influence <i>bitcoin</i> transactions when considering geographic location. This modified cryptocurrency is named the <i>geobitcoin</i>!
 
-The <i>geobitcoin</i> considers the geographic location of the <i>bitcoin</i> owner when they are performing a transaction. The key elements are:
+The <i>geobitcoin</i> considers the geographic location of the <i>bitcoin</i> owner when they are performing a transaction. The key elements required for the transaction are:
 * a method to identify the location of the user, providing an initial (untrusted) location
 * a method of validating the untrusted location of the user, through a peer network
 * the application of a monetary policy based on the location of the user for this transaction
