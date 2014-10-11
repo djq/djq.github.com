@@ -1,0 +1,31 @@
+---
+layout: post
+title: The Irish Housing Bubble
+---
+
+<h1>{{ page.title }}</h1>
+
+
+<p class="meta">15 October 2014 - Cambridge, MA</p>
+
+After the massive collapse of the Irish Housing Market I thought it would be interesting to sketch out several patterns of behaior that I think existed during this time. At a meta-level there were several reinforcing patterns of behavior that led to it's collapse. I'm going to focus on the magnitude to the collapse but want to explore the general trends, so that we can consider how it can be prevented again.
+
+All of these patterns commonly occur in isolation, but the combination of
+
+System Dynamics
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'djq';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view<a href="http://disqus.com/?ref_noscript">comments</a></noscript>
+
+
+
+
