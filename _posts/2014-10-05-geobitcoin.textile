@@ -8,6 +8,10 @@ title: geobitcoin - a thought experiment
 
 <p class="meta">12 October 2014 - Cambridge, MA</p>
 
+<a href="http://blogs.wsj.com/accelerators/2014/10/10/weekend-read-the-imminent-decentralized-computing-revolution/"><i>The block chain is essentially a giant distributed cryptographic ledger shared amongst all nodes participating in the network, and keeps a record of every single successful transaction. This allows for trustless transactional activity. It facilitates ownership, storage, transfer and processing of information without the need for a middleman or identity information clearinghouse.
+
+What this really means is that transactions, identity verification, trust, reputation and payments become quantifiable and programmable.</i></a>
+
 
 One interesting consequence of a distributed economic transaction system, like <a href="http://en.wikipedia.org/wiki/Bitcoin">bitcoin</a>, is the difficulty in stabilizing the currency. Stabilization mechanisms for currencies are important as they can provide slower feedback to a system that responds rapidly to fluctuations. These fluctuations can be caused by changes in investor/user sentiment, security breaches, or other external macro-economic trends. Most government backed currencies give us the belief that our money will not evaporate when there is a crisis somewhere in the world; we no longer live in fear of our cash savings disappearing overnight (as was the case in <a href="http://en.wikipedia.org/wiki/Bank_run">bank-runs</a> in the 1930s) even though we have had economic crises on a much larger scale since then.
 
