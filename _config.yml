@@ -1,2 +1,2 @@
 markdown: rdiscount
-highlighter: true
+rouge: true
