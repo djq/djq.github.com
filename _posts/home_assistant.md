@@ -1,3 +1,13 @@
+
+---
+layout: post
+title: home assistant
+---
+
+<h1>{{ page.title }}</h1>
+
+
+
 Playing with Home Assistant. 
 
 
